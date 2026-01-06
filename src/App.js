@@ -1140,4 +1140,3 @@ Keep it under 250 words, be specific with numbers.`;
   );
 };
 
-export default AttributionCalculator;

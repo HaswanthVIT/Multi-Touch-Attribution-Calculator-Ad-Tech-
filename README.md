@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+?? Multi-Touch Attribution ROI Calculator (AI-Powered)
+An interactive web application that simulates real-world digital advertising attribution across multiple channels and touchpoints.
+The system compares multiple attribution models and uses AI-driven analysis to recommend data-backed budget allocation strategies.
+Built to demonstrate ad-tech system thinking, analytics modeling, and AI-assisted decision making.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+?? Live Demo
+?? Live App: [Add live demo link here]
 
-## Available Scripts
+?? Problem Statement
+In real marketing systems, conversions are influenced by multiple touchpoints (search, social, display, email, etc.).
+Traditional last-click attribution often misrepresents true channel impact, leading to poor budget decisions.
+This project addresses that by:
+* Simulating multi-touch user journeys
+* Applying multiple attribution models
+* Comparing ROI across models
+* Generating AI-assisted budget recommendations
 
-In the project directory, you can run:
+?? Attribution Models Implemented
+* Last-Click Attribution
+* First-Click Attribution
+* Linear Attribution
+* Time-Decay Attribution
+* Position-Based (U-Shaped) Attribution
+Each model distributes revenue differently across channels, allowing marketers to understand trade-offs and bias.
 
-### `npm start`
+??? System Architecture
+User Input (Campaign Data)
+        ?
+User Journey Simulation
+        ?
+Attribution Engine (5 Models)
+        ?
+ROI Computation per Channel
+        ?
+Interactive Charts & Tables
+        ?
+AI Budget Recommendation Engine (Gemini)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+?? AI-Powered Budget Strategy
+The application uses Google Gemini to analyze:
+* Spend vs revenue
+* ROI per channel
+* CTR and conversion efficiency
+* Selected attribution model
+The AI outputs:
+* Specific budget reallocation actions
+* Projected impact on ROI and conversions
+* Clear, executive-friendly insights
+AI is used as a decision support layer, not a black-box replacement.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+?? Key Features
+* Dynamic campaign input (manual or sample data)
+* Simulated multi-touch user journeys
+* Side-by-side attribution comparison
+* ROI visualization using interactive charts
+* AI-generated budget recommendations
+* Clean, modern analytics dashboard UI
 
-### `npm test`
+?? Sample Use Cases
+* Compare how ROI changes across attribution models
+* Identify under-funded high-ROI channels
+* Understand bias of last-click attribution
+* Simulate budget strategy decisions before scaling spend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+??? Tech Stack
+Frontend
+* React.js
+* Recharts (data visualization)
+* Lucide Icons
+AI & Analytics
+* Google Gemini API
+* Custom attribution logic (client-side)
+* AI-assisted insights (server-side recommended)
+Styling
+* Custom inline styling (glassmorphism-inspired UI)
 
-### `npm run build`
+?? Important Note on AI Usage
+For security and best practices:
+* Gemini API calls should be routed through a backend service
+* API keys must never be exposed in frontend code
+This design mirrors production ad-tech systems.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+?? Why This Project Matters
+This project demonstrates:
+* Understanding of real ad-tech attribution problems
+* Ability to design end-to-end analytical systems
+* Strong product + engineering mindset
+* Practical use of AI for decision intelligence
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+?? Future Enhancements
+* Markov / data-driven attribution
+* Real campaign data ingestion
+* Attribution model comparison metrics
+* Cost-aware AI optimization
+* Exportable reports for stakeholders
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+?? Author
+Haswanth
+Computer Science & Engineering
+Focus areas: Systems, Analytics, AI-powered products
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
