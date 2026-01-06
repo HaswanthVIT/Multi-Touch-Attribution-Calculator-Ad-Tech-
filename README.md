@@ -1,102 +1,106 @@
-?? Multi-Touch Attribution ROI Calculator (AI-Powered)
-An interactive web application that simulates real-world digital advertising attribution across multiple channels and touchpoints.
-The system compares multiple attribution models and uses AI-driven analysis to recommend data-backed budget allocation strategies.
-Built to demonstrate ad-tech system thinking, analytics modeling, and AI-assisted decision making.
+# Ad Tech Attribution & ROI Calculator
 
-?? Live Demo
-?? Live App: [Add live demo link here]
+A comprehensive web application for calculating advertising attribution and return on investment (ROI) metrics. Built with React to help marketers and advertisers analyze campaign performance and make data-driven decisions.
 
-?? Problem Statement
-In real marketing systems, conversions are influenced by multiple touchpoints (search, social, display, email, etc.).
-Traditional last-click attribution often misrepresents true channel impact, leading to poor budget decisions.
-This project addresses that by:
-* Simulating multi-touch user journeys
-* Applying multiple attribution models
-* Comparing ROI across models
-* Generating AI-assisted budget recommendations
+## 🚀 Live Demo
 
-?? Attribution Models Implemented
-* Last-Click Attribution
-* First-Click Attribution
-* Linear Attribution
-* Time-Decay Attribution
-* Position-Based (U-Shaped) Attribution
-Each model distributes revenue differently across channels, allowing marketers to understand trade-offs and bias.
+**[View Live Application](https://ad-tech-attribution-roi-calculator.netlify.app/)**
 
-??? System Architecture
-User Input (Campaign Data)
-        ?
-User Journey Simulation
-        ?
-Attribution Engine (5 Models)
-        ?
-ROI Computation per Channel
-        ?
-Interactive Charts & Tables
-        ?
-AI Budget Recommendation Engine (Gemini)
+## 📋 Features
 
-?? AI-Powered Budget Strategy
-The application uses Google Gemini to analyze:
-* Spend vs revenue
-* ROI per channel
-* CTR and conversion efficiency
-* Selected attribution model
-The AI outputs:
-* Specific budget reallocation actions
-* Projected impact on ROI and conversions
-* Clear, executive-friendly insights
-AI is used as a decision support layer, not a black-box replacement.
+- **Attribution Modeling**: Calculate and compare different attribution models
+- **ROI Analysis**: Comprehensive return on investment calculations
+- **Interactive Interface**: User-friendly React-based interface
+- **Real-time Calculations**: Instant results as you input data
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-?? Key Features
-* Dynamic campaign input (manual or sample data)
-* Simulated multi-touch user journeys
-* Side-by-side attribution comparison
-* ROI visualization using interactive charts
-* AI-generated budget recommendations
-* Clean, modern analytics dashboard UI
+## 🛠️ Technologies Used
 
-?? Sample Use Cases
-* Compare how ROI changes across attribution models
-* Identify under-funded high-ROI channels
-* Understand bias of last-click attribution
-* Simulate budget strategy decisions before scaling spend
+- **React.js** - Frontend framework
+- **JavaScript (ES6+)** - Programming language
+- **CSS3** - Styling
+- **Netlify** - Deployment and hosting
 
-??? Tech Stack
-Frontend
-* React.js
-* Recharts (data visualization)
-* Lucide Icons
-AI & Analytics
-* Google Gemini API
-* Custom attribution logic (client-side)
-* AI-assisted insights (server-side recommended)
-Styling
-* Custom inline styling (glassmorphism-inspired UI)
+## 📦 Installation
 
-?? Important Note on AI Usage
-For security and best practices:
-* Gemini API calls should be routed through a backend service
-* API keys must never be exposed in frontend code
-This design mirrors production ad-tech systems.
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+```
 
-?? Why This Project Matters
-This project demonstrates:
-* Understanding of real ad-tech attribution problems
-* Ability to design end-to-end analytical systems
-* Strong product + engineering mindset
-* Practical use of AI for decision intelligence
+2. Navigate to the project directory:
+```bash
+cd YOUR_REPO_NAME
+```
 
-?? Future Enhancements
-* Markov / data-driven attribution
-* Real campaign data ingestion
-* Attribution model comparison metrics
-* Cost-aware AI optimization
-* Exportable reports for stakeholders
+3. Install dependencies:
+```bash
+npm install
+```
 
-?? Author
-Haswanth
-Computer Science & Engineering
-Focus areas: Systems, Analytics, AI-powered products
+4. Start the development server:
+```bash
+npm start
+```
 
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## 🏗️ Build for Production
+```bash
+npm run build
+```
+
+Builds the app for production to the `build` folder. The build is optimized for best performance.
+
+## 📂 Project Structure
+```
+├── public/
+├── src/
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## 🚀 Deployment
+
+This project is automatically deployed to Netlify. Any changes pushed to the main branch will trigger a new deployment.
+
+### Deploy Your Own
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
+
+## 📊 Use Cases
+
+- Digital marketing teams analyzing campaign performance
+- Ad agencies calculating client ROI
+- Marketing analysts comparing attribution models
+- Business owners tracking advertising effectiveness
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👤 Author
+
+**S HASWANTH**
+
+- GitHub: [@HaswanthVIT](https://github.com/HaswanthVIT)
+
+## ⭐ Show your support
+
+Give a ⭐️ if this project helped you!
+
+---
+
+**Note**: This is a client-side application. All calculations are performed in the browser, and no data is stored on external servers.
